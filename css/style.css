@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Exo, sans-serif;
+  color: #333333;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+  /* background-color: lightblue; */
+}
+.clr {
+  clear: both;
+}
+.navbar {
+  background-color: #f5f3ff;
+  padding-block: 10px;
+  border: #e9e5ff solid 1px;
+  position: fixed;
+  width: 100%;
+}
+.logo h2 {
+  color: black;
+  padding: 5px;
+  float: left;
+  font-size: 24px;
+}
+.navbar .container .logo img {
+  width: 35px;
+  float: left;
+  padding: 5px;
+  background-color: #8e51ff;
+  border-radius: 8px;
+}
+.navbar .container .nav-links {
+  float: right;
+}
+.navbar .container .nav-links ul li {
+  float: left;
+  padding: 10px;
+  list-style: none;
+  font-size: large;
+}
+.hero_section {
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+}
+.hero_section .container img {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  border: #e1e3e7 solid 1px;
+  border-radius: 5%;
+}
+.hero_section .container .hero_Content {
+  float: right;
+  width: 50%;
+  padding: 40px;
+  background-color: aquamarine;
+}
+.f1_span {
+  color: white;
+  background-color: #a684ff;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+.hero_Content h1 {
+  font-size: 50px;
+  padding: 10px;
+}
+.f2_span {
+  color: #a684ff;
+}
+.hero_font1 {
+  font-size: 20px;
+  padding: 10px;
+}
+.hero_Content h3 {
+  font-size: 40px;
+  padding: 10px;
+  font-weight: bolder;
+  display: inline;
+}
+.hero_save {
+  text-decoration: line-through;
+  display: inline;
+  font-size: 25px;
+}
+.hero_save2 {
+  background-color: #ffe2e2;
+  padding: 10px;
+  color: #e7000b;
+  margin-left: 10px;
+  border-radius: 8px;
+  display: inline;
+}
+.
