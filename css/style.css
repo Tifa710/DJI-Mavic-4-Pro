@@ -11,9 +11,9 @@ a {
   color: inherit;
 }
 .container {
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
-  /* background-color: lightblue; */
+  /* background-color: orange; */
 }
 .head {
   text-align: center;
@@ -43,6 +43,7 @@ a {
   border: #e9e5ff solid 1px;
   position: fixed;
   width: 100%;
+  z-index: 99999999;
 }
 .logo h2 {
   color: black;
@@ -88,7 +89,7 @@ a {
 }
 .hero_section {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   padding-top: 80px;
 }
 .hero_section .container img {
@@ -173,12 +174,12 @@ a {
 
 .Specifications {
   background-color: #f7f5ff;
-  height: 160vh;
+  height: 180vh;
 }
 .table_content {
   width: 100%;
   border-radius: 8px;
-  padding: 10px;
+  padding: 40px;
   border: #ccc solid 1px;
   background-color: white;
 }
@@ -188,6 +189,10 @@ th {
 }
 table {
   border-collapse: collapse;
+}
+th p {
+  font-weight: 400;
+  font-size: 16px;
 }
 .Specifications_Content {
   width: 90%;
@@ -241,6 +246,7 @@ table {
 }
 .rating {
   text-align: center;
+  padding: 20px;
 }
 .rating img {
   width: 15%;
@@ -262,7 +268,160 @@ table {
 }
 .result h4 {
   margin-top: 5px;
+  color: #00c950;
+}
+.result p {
+  color: #00c950;
 }
 .over {
   border: none;
+}
+.RatingandReviews {
+  position: relative;
+}
+.Stiky_card {
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  border: #e5e7eb solid 3px;
+  float: left;
+  position: sticky;
+  top: 70px;
+}
+.Stiky_card h3 {
+  padding: 15px;
+  font-size: 30px;
+}
+.Stiky_card p {
+  padding-top: 15px;
+}
+.Stiky_card img {
+  width: 8%;
+  display: inline-block;
+  margin: auto;
+}
+.rating_bar p {
+  display: inline-block;
+  padding-inline: 20px;
+}
+.clearbar {
+  display: inline-block;
+  background-color: #e5e7eb;
+  width: 60%;
+  height: 2vh;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+.percentbar {
+  background-color: #f0b100;
+  width: 40%;
+  height: 2vh;
+  border-radius: 8px;
+}
+.percentbar1 {
+  background-color: #f0b100;
+  width: 20%;
+  height: 2vh;
+  border-radius: 8px;
+}
+.percentbar2 {
+  background-color: #f0b100;
+  width: 15%;
+  height: 2vh;
+  border-radius: 8px;
+}
+.percentbar3 {
+  background-color: #f0b100;
+  width: 10%;
+  height: 2vh;
+  border-radius: 8px;
+}
+.percentbar4 {
+  background-color: #f0b100;
+  width: 5%;
+  height: 2vh;
+  border-radius: 8px;
+}
+.Stiky_card hr {
+  width: 80%;
+  margin: auto;
+  color: #dde0e5;
+}
+.rating_result {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+}
+.rating_result h4 {
+  font-size: xx-large;
+}
+.cards-review {
+  float: right;
+  width: 60%;
+  padding: 30px;
+}
+.card {
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: #ecedf0 3px solid;
+}
+.reviewer_details {
+  float: left;
+}
+.reviewer_details .personimg {
+  width: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  border: #a684ff 2px solid;
+}
+.reviewer_details img {
+  width: 20px;
+}
+.persondetails {
+  display: inline-block;
+}
+.persondetails h5 {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.card .persondetails p {
+  padding: 0%;
+}
+.time_detail {
+  float: right;
+}
+.time_detail h6 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #5d0ec0;
+  background-color: #ede9fe;
+  padding: 5px;
+  border-radius: 8px;
+}
+.card .time_detail p {
+  text-align: end;
+  padding: 5px;
+}
+.card p {
+  padding: 10px;
+}
+.btn {
+  margin-top: 80px;
+  text-align: center;
+}
+.btn button {
+  background-color: #8e51ff;
+  color: white;
+  font-size: 20px;
+  padding: 20px 50px;
+  border-radius: 30px;
+  border: #8e51ff 2px solid;
+  transition: 1s;
+}
+.btn button:hover {
+  background-color: white;
+  color: #8e51ff;
+  border: #8e51ff 2px solid;
 }
