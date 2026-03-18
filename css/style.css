@@ -359,7 +359,7 @@ th p {
 .cards-review {
   float: right;
   width: 60%;
-  padding: 30px;
+  padding: 0px 30px;
 }
 .card {
   padding: 30px;
@@ -424,4 +424,84 @@ th p {
   background-color: white;
   color: #8e51ff;
   border: #8e51ff 2px solid;
+  cursor: pointer;
+}
+.realted_product {
+  background-color: #f7f5ff;
+}
+.product_cards .product_card {
+  width: 25%;
+  float: left;
+}
+.product_cards .product_card .product_image {
+  position: relative;
+}
+.product_cards .product_card .product_image img {
+  width: 100%;
+  border-radius: 15px;
+}
+.product_cards .product_card .product_image span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #00bba7;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+}
+.product_cards .product_card .product_image #pbk2 {
+  background-color: #00c950;
+}
+.product_cards .product_card .product_image #pbk3 {
+  background-color: #00b8db;
+}
+.product_cards .product_card .product_image #pbk4 {
+  background-color: #ff6900;
+}
+.product_cards .product_card h6 {
+  padding: 10px 0;
+  font-size: 24px;
+}
+.product_cards .product_card .product_price {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  float: left;
+}
+.product_cards .product_card .product_details {
+  padding: 20px 0;
+}
+.product_cards .product_card span {
+  background-color: #8e51ff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  float: right;
+}
+.product_cards .product_card .product_container {
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  border-radius: 15px;
+  border: #e5e7eb 3px solid;
+  background-color: white;
+}
+.product_cards .product_card .product_container img {
+  transition: 1s;
+}
+.product_cards .product_card .product_container:hover img {
+  transform: scale(1.1);
+}
+.product_cards .btn button {
+  background-color: transparent;
+  color: #8e51ff;
+  border: #8e51ff 2px solid;
+  margin-bottom: 40px;
+  transition: 1s;
+}
+.product_cards .btn button:hover {
+  background-color: #8e51ff;
+  color: white;
+  border: #8e51ff 2px solid;
+  transition: 1s;
 }
