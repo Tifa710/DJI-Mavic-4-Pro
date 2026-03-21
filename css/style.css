@@ -505,3 +505,121 @@ th p {
   border: #8e51ff 2px solid;
   transition: 1s;
 }
+.footer {
+  background-color: #101828;
+  color: white;
+}
+.footer .footer_one {
+  width: 25%;
+  float: left;
+}
+.footer .footer_one .logo {
+  width: 35px;
+  float: left;
+  padding: 5px;
+  background-color: #8e51ff;
+  border-radius: 8px;
+}
+.footer .footer_one h3 {
+  float: left;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.footer .footer_one p {
+  padding: 30px 15px;
+  padding-left: 0;
+}
+.logo_facebook {
+  background-color: #1e2939;
+  float: left;
+  width: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  transition: 80ms;
+  cursor: pointer;
+}
+.logo_facebook:hover {
+  background-color: #1877f2;
+}
+.logo_twitter {
+  background-color: #1e2939;
+  float: left;
+  width: 50px;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  transition: 80ms;
+  cursor: pointer;
+}
+.logo_twitter:hover {
+  background-color: #1da1f2;
+}
+.logo_instagram {
+  background-color: #1e2939;
+  float: left;
+  width: 50px;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  transition: 80ms;
+  cursor: pointer;
+}
+.logo_instagram:hover {
+  background-color: #e4405f;
+}
+.logo_youtube {
+  background-color: #1e2939;
+  float: left;
+  width: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 80ms;
+  cursor: pointer;
+}
+.logo_youtube:hover {
+  background-color: #ff0000;
+}
+.footer_two {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+.footer_two h4 {
+  margin-bottom: 15px;
+}
+.footer_two ul li {
+  padding: 8px 0;
+  color: #707b8d;
+  cursor: pointer;
+  width: fit-content;
+}
+.footer_two ul li:hover {
+  color: white;
+}
+.footer_two ul {
+  list-style: none;
+  padding: 0;
+}
+.footer .container hr {
+  background-color: #172030;
+}
+.footer_endtext {
+  float: left;
+}
+.footer_endphoto {
+  float: right;
+  width: 60px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.master {
+  float: right;
+  width: 40px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
